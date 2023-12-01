@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    color: #5fbe28;
+}
+.lessons-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.lessons-list li:active {
+    transform: scale(0.95);
+}
+
+.lessons-list li:focus {
+    outline: 2px solid #cc1e1e;
+}
+
+.lessons-list li:checked {
+    background-color: #1be7b4;
+}
+
+.lessons-list li:visited {
+    color: #666;
+}
+
+
+.lessons-list:first-child li {
+    background-color: #ffd699;
+}
+
+.lessons-list:last-child li {
+    background-color: #c2f0c2;
+}
+
+.lessons-list:nth-child(odd) li {
+    background-color: #ffb3b3;
+}
+
+.lessons-list:nth-child(even) li {
+    background-color: #99ccff;
+}
+
+.lessons-list li:nth-child(3n) {
+    font-weight: bold;
+}
